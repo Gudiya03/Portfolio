@@ -1,0 +1,35 @@
+body{
+background:#0a0a0f;
+color:white;
+font-family:Inter;
+}
+
+.navbar{
+display:flex;
+justify-content:space-between;
+padding:20px;
+background:#111;
+}
+
+.links a{
+margin:10px;
+color:white;
+text-decoration:none;
+}
+
+.hero{
+padding:120px;
+text-align:center;
+}
+
+.btn{
+background:#7c3aed;
+padding:12px 20px;
+color:white;
+text-decoration:none;
+}
+
+.btn-outline{
+border:1px solid #7c3aed;
+padding:12px 20px;
+}

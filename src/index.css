@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+background:#0a0a0f;
+color:white;
+font-family:Inter;
+}
+
+@keyframes spin-slow{
+from{transform:rotate(0deg);}
+to{transform:rotate(360deg);}
+}
+
+.animate-spin-slow{
+animation:spin-slow 12s linear infinite;
+}
+
+@keyframes float{
+0%,100%{transform:translateY(0)}
+50%{transform:translateY(-10px)}
+}
+
+.animate-float{
+animation:float 3s ease-in-out infinite;
+}
+
+.animate-float-delay{
+animation:float 3s ease-in-out infinite;
+animation-delay:1s;
+}
+html{
+scroll-behavior:smooth;
+}

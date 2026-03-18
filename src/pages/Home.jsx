@@ -101,12 +101,12 @@ MERN Stack
 </div>
 
 <div className="absolute bottom-20 left-0 bg-[#14141f] px-3 md:px-4 py-2 rounded-lg text-xs md:text-sm border border-purple-500/20 animate-float-delay">
-<span className="text-green-400">●</span> CGPA: 7.92
+<span className="text-green-400">●</span> CGPA: 6.83
 </div>
 
 <div className="absolute bottom-6 right-6 bg-[#14141f] px-3 md:px-4 py-2 rounded-lg text-xs md:text-sm border border-purple-500/20 flex items-center gap-2 animate-float">
 <FaStar className="text-yellow-400"/>
-150+ Problems
+200+ Problems
 </div>
 
 </div>

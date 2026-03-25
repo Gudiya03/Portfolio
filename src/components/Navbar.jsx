@@ -21,24 +21,24 @@ return(
 
 <nav className="fixed top-0 w-full bg-[#0a0a0f]/80 backdrop-blur border-b border-purple-500/20 z-50">
 
-<div className="max-w-7xl mx-auto flex justify-between items-center px-6 h-16">
+<div className="flex items-center justify-between h-16 px-6 mx-auto max-w-7xl">
 
 {/* Logo */}
 
-<div className="text-xl font-bold bg-gradient-to-r from-purple-500 to-pink-500 text-transparent bg-clip-text">
-PR.
+<div className="text-xl font-bold text-transparent bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text">
+GK.
 </div>
 
 
 {/* Desktop Menu */}
 
-<div className="hidden md:flex gap-8 text-sm text-gray-400">
+<div className="hidden gap-8 text-sm text-gray-400 md:flex">
 
 {links.map((item)=>(
 <a 
 key={item.name}
 href={item.link}
-className="hover:text-purple-400 transition"
+className="transition hover:text-purple-400"
 >
 {item.name}
 </a>
@@ -68,14 +68,14 @@ className="hover:text-purple-400 transition"
 
 <div className="md:hidden bg-[#0a0a0f] border-t border-purple-500/20">
 
-<div className="flex flex-col px-6 py-4 gap-4 text-gray-400">
+<div className="flex flex-col gap-4 px-6 py-4 text-gray-400">
 
 {links.map((item)=>(
 <a
 key={item.name}
 href={item.link}
 onClick={()=>setOpen(false)}
-className="hover:text-purple-400 transition"
+className="transition hover:text-purple-400"
 >
 {item.name}
 </a>

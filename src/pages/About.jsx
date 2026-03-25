@@ -9,53 +9,53 @@ export default function About() {
     },
     {
       icon: <FaEnvelope className="text-purple-400 shrink-0" />,
-      label: "princerajmne@gmail.com",
-      href: "mailto:princerajmne@gmail.com",
+      label: "kumarigudiyaa03@gmail.com",
+      href: "mailto:kumarigudiyaa03@gmail.com",
     },
     {
       icon: <FaPhone className="text-purple-400 shrink-0" />,
-      label: "+91 7479845306",
-      href: "tel:+917479845306",
+      label: "+91 9905961088",
+      href: "tel:+919905961088",
     },
     {
       icon: <FaGithub className="text-purple-400 shrink-0" />,
-      label: "github.com/princeraj05",
-      href: "https://github.com/princeraj05",
+      label: "github.com/Gudiya03",
+      href: "https://github.com/Gudiya03",
     },
     {
       icon: <FaLinkedin className="text-purple-400 shrink-0" />,
-      label: "linkedin.com/in/princeraj7479",
-      href: "https://www.linkedin.com/in/princeraj7479/",
+      label: "linkedin.com/in/gudiya-kumari-a06b18291",
+      href: "https://www.linkedin.com/in/gudiya-kumari-a06b18291/",
     },
   ];
 
   return (
-    <section className="max-w-7xl mx-auto px-4 md:px-6 py-16 md:py-24 grid md:grid-cols-2 gap-12 items-center">
+    <section className="grid items-center gap-12 px-4 py-16 mx-auto max-w-7xl md:px-6 md:py-24 md:grid-cols-2">
 
       {/* LEFT SIDE */}
       <div>
-        <h2 className="text-3xl md:text-4xl font-bold text-white mb-6 md:mb-8">
+        <h2 className="mb-6 text-3xl font-bold text-white md:text-4xl md:mb-8">
           About Me
         </h2>
 
-        <p className="text-gray-400 mb-6 text-sm md:text-base">
-          Hi! I'm <span className="text-purple-400 font-semibold">Prince Raj</span>,
+        <p className="mb-6 text-sm text-gray-400 md:text-base">
+          Hi! I'm <span className="font-semibold text-purple-400">Gudiya Kumari</span>,
           a B.Tech Computer Science student at
-          <span className="text-purple-400 font-semibold"> Lovely Professional University</span>.
+          <span className="font-semibold text-purple-400"> Lovely Professional University</span>.
           I'm passionate about building modern and scalable full-stack web applications.
         </p>
 
-        <p className="text-gray-400 mb-6 text-sm md:text-base">
-          I specialize in the <span className="text-purple-400 font-semibold">MERN Stack</span>
+        <p className="mb-6 text-sm text-gray-400 md:text-base">
+          I specialize in the <span className="font-semibold text-purple-400">MERN Stack</span>
           (MongoDB, Express, React, Node.js) and enjoy creating elegant user interfaces
           along with efficient backend systems.
         </p>
 
-        <p className="text-gray-400 mb-8 text-sm md:text-base">
+        <p className="mb-8 text-sm text-gray-400 md:text-base">
           Apart from development, I actively practice
-          <span className="text-purple-400 font-semibold"> Data Structures & Algorithms</span>
-          and have solved <span className="text-purple-400 font-semibold">106+ problems</span>
-          on platforms like LeetCode and GeeksForGeeks to strengthen my problem-solving skills.
+          <span className="font-semibold text-purple-400"> Data Structures & Algorithms</span>
+          and have solved <span className="font-semibold text-purple-400">200+ problems</span>
+          on platforms like LeetCode and HackerRank to strengthen my problem-solving skills.
         </p>
 
         {/* CONTACT INFO — all clickable */}
@@ -66,9 +66,9 @@ export default function About() {
               href={item.href}
               target={item.href.startsWith("http") ? "_blank" : undefined}
               rel={item.href.startsWith("http") ? "noopener noreferrer" : undefined}
-              className="flex items-center gap-3 text-gray-400 hover:text-purple-400 transition-colors duration-200 group"
+              className="flex items-center gap-3 text-gray-400 transition-colors duration-200 hover:text-purple-400 group"
             >
-              <span className="group-hover:scale-110 transition-transform duration-200">
+              <span className="transition-transform duration-200 group-hover:scale-110">
                 {item.icon}
               </span>
               <span className="group-hover:underline underline-offset-2">
@@ -83,32 +83,30 @@ export default function About() {
       <div className="grid grid-cols-2 gap-4 md:gap-6">
 
         <div className="bg-[#14141f] border border-purple-500/20 p-6 md:p-8 rounded-xl text-center hover:border-purple-500 transition">
-          <h3 className="text-2xl md:text-3xl font-bold text-purple-400">3+</h3>
-          <p className="text-gray-400 text-sm md:text-base">Projects Built</p>
+          <h3 className="text-2xl font-bold text-purple-400 md:text-3xl">3+</h3>
+          <p className="text-sm text-gray-400 md:text-base">Projects Built</p>
         </div>
 
         <div className="bg-[#14141f] border border-purple-500/20 p-6 md:p-8 rounded-xl text-center hover:border-purple-500 transition">
-          <h3 className="text-2xl md:text-3xl font-bold text-purple-400">106+</h3>
-          <p className="text-gray-400 text-sm md:text-base">Problems Solved</p>
+          <h3 className="text-2xl font-bold text-purple-400 md:text-3xl">200+</h3>
+          <p className="text-sm text-gray-400 md:text-base">Problems Solved</p>
         </div>
 
         <div className="bg-[#14141f] border border-purple-500/20 p-6 md:p-8 rounded-xl text-center hover:border-purple-500 transition">
-          <h3 className="text-2xl md:text-3xl font-bold text-purple-400">5+</h3>
-          <p className="text-gray-400 text-sm md:text-base">Certifications</p>
+          <h3 className="text-2xl font-bold text-purple-400 md:text-3xl">4+</h3>
+          <p className="text-sm text-gray-400 md:text-base">Certifications</p>
         </div>
 
         <div className="bg-[#14141f] border border-purple-500/20 p-6 md:p-8 rounded-xl text-center hover:border-purple-500 transition">
-          <h3 className="text-2xl md:text-3xl font-bold text-purple-400">6.83</h3>
-          <p className="text-gray-400 text-sm md:text-base">CGPA (B.Tech)</p>
+          <h3 className="text-2xl font-bold text-purple-400 md:text-3xl">7.92</h3>
+          <p className="text-sm text-gray-400 md:text-base">CGPA (B.Tech)</p>
         </div>
 
         {/* RESUME BUTTON */}
-        <div className="col-span-2 flex justify-center mt-4">
+        <div className="flex justify-center col-span-2 mt-4">
           <a
-            href="/PrinceRajResume.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-gradient-to-r from-purple-600 to-pink-500 px-6 md:px-8 py-3 rounded-lg text-white hover:scale-105 transition text-sm md:text-base"
+            href="#resume"
+            className="px-6 py-3 text-sm text-white transition rounded-lg bg-gradient-to-r from-purple-600 to-pink-500 md:px-8 hover:scale-105 md:text-base"
           >
             📄 View Resume
           </a>

@@ -5,32 +5,32 @@ export default function Home() {
   const socials = [
     {
       icon: <FaLinkedinIn />,
-      href: "https://www.linkedin.com/in/princeraj7479/",
+      href: "https://www.linkedin.com/in/gudiya-kumari-a06b18291/?skipRedirect=true",
       label: "LinkedIn",
     },
     {
       icon: <FaGithub />,
-      href: "https://github.com/princeraj05",
+      href: "https://github.com/Gudiya03",
       label: "GitHub",
     },
     {
       icon: <SiLeetcode />,
-      href: "https://leetcode.com/u/PrinceRajlpu/",
+      href: "https://leetcode.com/u/gudiyakumari03/",
       label: "LeetCode",
     },
     {
       icon: <SiGeeksforgeeks />,
-      href: "https://www.geeksforgeeks.org/profile/princerajlpu",
+      href: "https://www.geeksforgeeks.org/profile/kumariguofmg",
       label: "GeeksForGeeks",
     },
     {
       icon: <FaEnvelope />,
-      href: "mailto:princerajmne@gmail.com",
+      href: "mailto:kumarigudiyaa03@gmail.com",
       label: "Email",
     },
     {
       icon: <FaPhone />,
-      href: "tel:+917479845306",
+      href: "tel:+919905961088",
       label: "Phone",
     },
   ];
@@ -48,7 +48,7 @@ export default function Home() {
           </div>
 
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white">
-            Prince Raj
+            Gudiya Kumari
           </h1>
 
           <p className="text-purple-400 text-lg md:text-xl font-mono">
@@ -102,8 +102,8 @@ export default function Home() {
             <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-purple-500 to-pink-500 animate-spin-slow"></div>
             <div className="absolute inset-[6px] rounded-full overflow-hidden bg-[#0a0a0f]">
               <img
-                src="/Prince.jpeg"
-                alt="Prince Raj"
+                src="/Gudiya.jpeg"
+                alt="Gudiya Kumari"
                 className="w-full h-full object-cover rounded-full"
               />
             </div>
@@ -116,12 +116,12 @@ export default function Home() {
           </div>
 
           <div className="absolute bottom-20 left-0 bg-[#14141f] px-3 md:px-4 py-2 rounded-lg text-xs md:text-sm border border-purple-500/20 animate-float-delay">
-            <span className="text-green-400">●</span> CGPA: 6.83
+            <span className="text-green-400">●</span> CGPA: 7.92
           </div>
 
           <div className="absolute bottom-6 right-6 bg-[#14141f] px-3 md:px-4 py-2 rounded-lg text-xs md:text-sm border border-purple-500/20 flex items-center gap-2 animate-float">
             <FaStar className="text-yellow-400" />
-            106+ Problems
+            200+ Problems
           </div>
 
         </div>

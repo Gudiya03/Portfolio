@@ -2,66 +2,66 @@ export default function Contact(){
 
 return(
 
-<section className="max-w-7xl mx-auto py-16 md:py-24 px-4 md:px-6">
+<section className="px-4 py-16 mx-auto max-w-7xl md:py-24 md:px-6">
 
-<h2 className="text-3xl md:text-4xl font-bold mb-4">
+<h2 className="mb-4 text-3xl font-bold md:text-4xl">
 Contact Me
 </h2>
 
-<p className="text-gray-400 max-w-xl mb-12 md:mb-16 text-sm md:text-base">
+<p className="max-w-xl mb-12 text-sm text-gray-400 md:mb-16 md:text-base">
 I'm currently looking for new opportunities. Whether you have a
 question or just want to say hi — my inbox is always open!
 </p>
 
-<div className="grid md:grid-cols-2 gap-10 md:gap-16">
+<div className="grid gap-10 md:grid-cols-2 md:gap-16">
 
 {/* LEFT SIDE */}
 
 <div className="space-y-8">
 
-<div className="flex items-center gap-4 border-b border-purple-500/10 pb-6">
-<div className="w-12 h-12 flex items-center justify-center rounded-lg bg-purple-500/10 text-purple-400 text-lg">
+<div className="flex items-center gap-4 pb-6 border-b border-purple-500/10">
+<div className="flex items-center justify-center w-12 h-12 text-lg text-purple-400 rounded-lg bg-purple-500/10">
 <i className="fas fa-envelope"></i>
 </div>
 
 <div>
-<p className="text-gray-400 text-sm">Email</p>
-<a href="mailto:princerajmne@gmail.com" className="text-purple-400">
-princerajmne@gmail.com
+<p className="text-sm text-gray-400">Email</p>
+<a href="mailto:kumarigudiyaa03@gmail.com" className="text-purple-400">
+kumarigudiyaa03@gmail.com
 </a>
 </div>
 </div>
 
 
-<div className="flex items-center gap-4 border-b border-purple-500/10 pb-6">
-<div className="w-12 h-12 flex items-center justify-center rounded-lg bg-purple-500/10 text-purple-400 text-lg">
+<div className="flex items-center gap-4 pb-6 border-b border-purple-500/10">
+<div className="flex items-center justify-center w-12 h-12 text-lg text-purple-400 rounded-lg bg-purple-500/10">
 <i className="fas fa-phone"></i>
 </div>
 
 <div>
-<p className="text-gray-400 text-sm">Phone</p>
+<p className="text-sm text-gray-400">Phone</p>
 <p className="text-purple-400">
-+91 7479845306
++91 9905961088
 </p>
 </div>
 </div>
 
 
-<div className="flex items-center gap-4 border-b border-purple-500/10 pb-6">
-<div className="w-12 h-12 flex items-center justify-center rounded-lg bg-purple-500/10 text-purple-400 text-lg">
+<div className="flex items-center gap-4 pb-6 border-b border-purple-500/10">
+<div className="flex items-center justify-center w-12 h-12 text-lg text-purple-400 rounded-lg bg-purple-500/10">
 <i className="fab fa-linkedin-in"></i>
 </div>
 
 <div>
-<p className="text-gray-400 text-sm">LinkedIn</p>
+<p className="text-sm text-gray-400">LinkedIn</p>
 
 <a
-href="https://www.linkedin.com/in/princeraj7479/"
+href="https://www.linkedin.com/in/gudiya-kumari-a06b18291/"
 target="_blank"
 className="text-purple-400"
 >
 
-linkedin.com/in/princeraj7479/
+linkedin.com/in/gudiya-kumari-a06b18291
 
 </a>
 
@@ -70,22 +70,22 @@ linkedin.com/in/princeraj7479/
 </div>
 
 
-<div className="flex items-center gap-4 border-b border-purple-500/10 pb-6">
+<div className="flex items-center gap-4 pb-6 border-b border-purple-500/10">
 
-<div className="w-12 h-12 flex items-center justify-center rounded-lg bg-purple-500/10 text-purple-400 text-lg">
+<div className="flex items-center justify-center w-12 h-12 text-lg text-purple-400 rounded-lg bg-purple-500/10">
 <i className="fab fa-github"></i>
 </div>
 
 <div>
-<p className="text-gray-400 text-sm">GitHub</p>
+<p className="text-sm text-gray-400">GitHub</p>
 
 <a
-href="https://github.com/princeraj05"
+href="https://github.com/Gudiya03"
 target="_blank"
 className="text-purple-400"
 >
 
-github.com/princeraj05
+github.com/Gudiya03
 
 </a>
 
@@ -96,13 +96,13 @@ github.com/princeraj05
 
 <div className="flex items-center gap-4">
 
-<div className="w-12 h-12 flex items-center justify-center rounded-lg bg-purple-500/10 text-purple-400 text-lg">
+<div className="flex items-center justify-center w-12 h-12 text-lg text-purple-400 rounded-lg bg-purple-500/10">
 <i className="fas fa-map-marker-alt"></i>
 </div>
 
 <div>
-<p className="text-gray-400 text-sm">Location</p>
-<p>Phagwara, Punjab, India</p>
+<p className="text-sm text-gray-400">Location</p>
+<p>Phagwara, Punjab, India (Originally from Bihar)</p>
 </div>
 
 </div>
@@ -114,7 +114,7 @@ github.com/princeraj05
 
 <form className="space-y-6">
 
-<div className="grid sm:grid-cols-2 gap-4">
+<div className="grid gap-4 sm:grid-cols-2">
 
 <input
 type="text"
@@ -138,7 +138,7 @@ className="w-full bg-[#1a1a28] border border-purple-500/20 rounded-lg p-3 outlin
 
 
 <textarea
-placeholder="Hi Prince, I'd love to connect..."
+placeholder="Hi Gudiya, I'd love to connect..."
 className="w-full bg-[#1a1a28] border border-purple-500/20 rounded-lg p-3 outline-none h-36"
 />
 
@@ -147,7 +147,7 @@ className="w-full bg-[#1a1a28] border border-purple-500/20 rounded-lg p-3 outlin
 className="w-full bg-gradient-to-r from-purple-600 to-pink-500 py-3 rounded-lg font-semibold hover:scale-[1.02] transition"
 >
 
-<i className="fas fa-paper-plane mr-2"></i>
+<i className="mr-2 fas fa-paper-plane"></i>
 Send Message
 
 </button>

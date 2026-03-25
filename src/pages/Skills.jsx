@@ -16,8 +16,6 @@ export default function Skills() {
         { name: "JavaScript", icon: "🟨" },
         { name: "C", icon: "🔵" },
         { name: "Java", icon: "☕" },
-        { name: "PHP", icon: "🐘" },
-        { name: "Python", icon: "🐍" },
       ],
     },
     {
@@ -32,12 +30,12 @@ export default function Skills() {
       tagHover: "hover:bg-blue-500/20 hover:border-blue-400",
       glow: "shadow-blue-500/10",
       skills: [
-        { name: "React.js", icon: "⚛️" },
+        { name: "React", icon: "⚛️" },
         { name: "Node.js", icon: "🟩" },
-        { name: "Express.js", icon: "🚂" },
         { name: "Bootstrap", icon: "🅱️" },
-        { name: "HTML5", icon: "🌐" },
-        { name: "CSS3", icon: "🎨" },
+        { name: "Laravel", icon: "🔺" },
+        { name: "HTML", icon: "🌐" },
+        { name: "CSS", icon: "🎨" },
       ],
     },
     {
@@ -54,10 +52,9 @@ export default function Skills() {
       skills: [
         { name: "MongoDB", icon: "🍃" },
         { name: "MySQL", icon: "🐬" },
+        { name: "Git", icon: "🌿" },
         { name: "GitHub", icon: "🐙" },
         { name: "Postman", icon: "📮" },
-        { name: "REST APIs", icon: "🔗" },
-        { name: "JWT Auth", icon: "🔐" },
       ],
     },
     {
@@ -72,26 +69,24 @@ export default function Skills() {
       tagHover: "hover:bg-emerald-500/20 hover:border-emerald-400",
       glow: "shadow-emerald-500/10",
       skills: [
-        { name: "Problem Solving", icon: "🧩" },
+        { name: "Critical Thinking", icon: "🧠" },
         { name: "Team Work", icon: "🤝" },
         { name: "Adaptability", icon: "🌊" },
         { name: "Leadership", icon: "🎯" },
-        { name: "DSA", icon: "🌲" },
-        { name: "OOP", icon: "📦" },
       ],
     },
   ];
 
   return (
-    <section className="max-w-6xl mx-auto py-16 md:py-20 px-4 md:px-6">
+    <section className="max-w-6xl px-4 py-16 mx-auto md:py-20 md:px-6">
       {/* Header */}
-      <h2 className="text-3xl md:text-4xl font-bold mb-4">Skills & Expertise</h2>
-      <p className="text-gray-400 mb-10 md:mb-12 max-w-xl text-sm md:text-base">
+      <h2 className="mb-4 text-3xl font-bold md:text-4xl">Skills & Expertise</h2>
+      <p className="max-w-xl mb-10 text-sm text-gray-400 md:mb-12 md:text-base">
         A toolkit built through projects, courses, and countless hours of practice.
       </p>
 
       {/* Grid */}
-      <div className="grid sm:grid-cols-2 gap-5 md:gap-7">
+      <div className="grid gap-5 sm:grid-cols-2 md:gap-7">
         {skillGroups.map((group, gi) => (
           <div
             key={gi}

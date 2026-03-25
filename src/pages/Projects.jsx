@@ -1,64 +1,52 @@
 import ProjectCard from "../components/ProjectCard";
 
-const ecoVisionImg = "/images/ecovision.png";
-const teachHubImg = "/images/teachhub.png";
-const instagramImg = "/images/instagram.png";
-const emailImg = "/images/Email.png"; // Fixed the variable name
+const careerConnectImg = "/images/careerconnect.png";
+const finTrackImg = "/images/fintrack.png";
+const artConnectImg = "/images/artconnect.png";
 
 export default function Projects() {
   return (
-    <section className="max-w-7xl mx-auto py-16 md:py-24 px-4 md:px-6">
-      <h2 className="text-3xl md:text-4xl font-bold mb-4">Projects</h2>
+    <section className="px-4 py-16 mx-auto max-w-7xl md:py-24 md:px-6">
+      <h2 className="mb-4 text-3xl font-bold md:text-4xl">Projects</h2>
 
-      <p className="text-gray-400 mb-10 md:mb-12 max-w-xl text-sm md:text-base">
+      <p className="max-w-xl mb-10 text-sm text-gray-400 md:mb-12 md:text-base">
         Real-world applications built with modern technologies and best
         practices.
       </p>
 
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 md:gap-8">
 
         <ProjectCard
-          title="Eco Vision"
-          date="Dec 2025"
-          icon="🌱"
-          image={ecoVisionImg}
-          desc="AI powered platform converting waste into business ideas and sustainable products."
-          live="https://swadeshi-waste-ai-final.vercel.app/"
-          github="https://github.com/princeraj05"
-          tech={["React", "Node.js", "MongoDB", "AI", "REST API"]}
+          title="CareerConnect"
+          date="Jan 2026 – Feb 2026"
+          icon="💼"
+          image={careerConnectImg}
+          desc="A full-stack job portal platform connecting job seekers and recruiters with JWT authentication, role-based access control, and scalable REST APIs for job posting, applications, and search."
+          live="https://career-connect-vert-kappa.vercel.app/login"
+          github="https://github.com/Gudiya03"
+          tech={["React", "Node.js", "Express", "MongoDB", "JWT", "REST API"]}
         />
 
         <ProjectCard
-          title="TeachHub"
-          date="Mar 2026"
-          icon="🏫"
-          image={teachHubImg}
-          desc="Comprehensive school management platform with role-based dashboards for admins, teachers, and students. Features real-time communication, attendance, exams, and class operations."
-          live="https://myschool-admin-panel.vercel.app/"
-          github="https://github.com/princeraj05/myschool-admin-panel"
-          tech={["React", "Node.js", "Express", "MongoDB", "JWT", "Socket.IO", "Tailwind CSS"]}
-        />
-
-        <ProjectCard
-          title="Instagram Clone"
-          date="2026"
-          icon="📸"
-          image={instagramImg}
-          desc="Full-stack Instagram clone with user authentication, photo uploads, likes, comments, follow system, and a responsive feed — built with the MERN stack."
-          live="https://instagram-clone-mern-seven.vercel.app/"
-          github="https://github.com/princeraj05"
-          tech={["React", "Node.js", "Express", "MongoDB", "JWT", "Tailwind CSS"]}
-        />
-
-        <ProjectCard
-          title="Email Dashboard"
-          date="Mar 2025"
-          icon="📧"
-          image={emailImg}
-          desc="Responsive email management dashboard with authentication and profile system."
+          title="FinTrack Pro"
+          date="Oct 2025 – Dec 2025"
+          icon="💰"
+          image={finTrackImg}
+          desc="A smart expense management system to track income, expenses, and budgets with category-based organization, interactive dashboard, data visualization, and advanced filtering."
           live=""
-          github="https://github.com/princeraj05"
-          tech={["HTML", "Tailwind", "JavaScript", "PHP", "MySQL"]}
+          github="https://github.com/Gudiya03"
+          tech={["PHP", "MySQL", "Tailwind CSS", "JavaScript", "REST API"]}
+        />
+
+        <ProjectCard
+          title="ArtConnect"
+          date="Nov 2024 – Dec 2024"
+          icon="🎨"
+          image={artConnectImg}
+          desc="A front-end social media platform inspired by Instagram, enabling users to share and explore visual content with dynamic post creation, feed rendering, and user interaction."
+          live=""
+          github="https://github.com/Gudiya03"
+          tech={["HTML", "CSS", "JavaScript"]}
         />
 
       </div>

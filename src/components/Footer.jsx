@@ -4,11 +4,11 @@ return(
 
 <footer className="bg-[#0a0a0f] border-t border-purple-500/20 py-12 text-center px-4">
 
-<h2 className="text-lg md:text-xl font-bold bg-gradient-to-r from-purple-500 to-pink-500 text-transparent bg-clip-text mb-4">
-Prince Raj
+<h2 className="mb-4 text-lg font-bold text-transparent md:text-xl bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text">
+Gudiya Kumari
 </h2>
 
-<div className="flex flex-wrap justify-center gap-4 md:gap-6 text-gray-400 mb-6 text-sm">
+<div className="flex flex-wrap justify-center gap-4 mb-6 text-sm text-gray-400 md:gap-6">
 
 <a href="#home" className="hover:text-purple-400">Home</a>
 <a href="#about" className="hover:text-purple-400">About</a>
@@ -20,25 +20,25 @@ Prince Raj
 <div className="flex justify-center gap-4 mb-6">
 
 <a
-href="https://linkedin.com/in/princeraj7479"
+href="https://www.linkedin.com/in/gudiya-kumari-a06b18291/"
 target="_blank"
-className="border border-purple-500/20 p-3 rounded-lg hover:text-purple-400"
+className="p-3 border rounded-lg border-purple-500/20 hover:text-purple-400"
 >
 LinkedIn
 </a>
 
 <a
-href="https://github.com/princeraj05"
+href="https://github.com/Gudiya03"
 target="_blank"
-className="border border-purple-500/20 p-3 rounded-lg hover:text-purple-400"
+className="p-3 border rounded-lg border-purple-500/20 hover:text-purple-400"
 >
 GitHub
 </a>
 
 </div>
 
-<p className="text-gray-500 text-xs md:text-sm">
-© 2026 Prince Raj • Built with React
+<p className="text-xs text-gray-500 md:text-sm">
+© 2026 Gudiya Kumari • Built with React
 </p>
 
 </footer>

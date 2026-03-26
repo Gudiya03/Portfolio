@@ -5,14 +5,14 @@ export default function Achievements() {
     icon: "💻",
     title: "LeetCode – 200+ Problems Solved",
     description:
-      "Solved 200+ DSA problems on LeetCode and maintained a 50+ day coding streak, showcasing strong consistency and problem-solving skills.",
+      "Solved 200+ DSA problems on LeetCode and maintained a 50+ day batch, showcasing strong consistency and problem-solving skills.",
     date: "March 2026",
   },
     {
     icon: "🟢",
-    title: "GeeksForGeeks – 50+ Day Streak",
+    title: "GeeksForGeeks – 50+ Day batch",
     description:
-      "Maintained a 50+ day problem-solving streak on GeeksForGeeks, improving coding consistency and strengthening DSA fundamentals.",
+      "Maintained a 50+ day problem-solving batch on GeeksForGeeks, improving coding consistency and strengthening DSA fundamentals.",
     date: "March 2026",
   },
   {
